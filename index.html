@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- No idea what this is -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Fontawesome link for icons in footer | Link & Script -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <script src="https://kit.fontawesome.com/18795bf9d8.js" crossorigin="anonymous"></script>
+  <!-- Title of Webpage -->
+  <title>The Bean Machine</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700;900&display=swap" rel="stylesheet">
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="./style.css" >
+</head>
+<body>
+  <!-- Header content for text-logo and nav menu -->
+  <header class="container">
+    <div class="logo">
+      <a href="index.html">
+        <img src="assets/bean_machine_text_logo.png" alt="textLogo" />
+      </a>
+    </div>
+    <nav class="menu">
+      <a href="#" class="menuItem">About</a>
+      <a href="#" class="menuItem">Selection</a>
+      <a href="#"> <button class="buttonMenuItem">Login</button></a>
+    </nav>
+  </header>
+
+  <!-- main content -->
+  <!-- Page Title, input and shop logo -->
+  <main class="container">
+    <section class="hero">
+      <img src="assets/bean_machine_logo.png" class="mainLogo" alt="personHoldingCoffee"/>
+      <h1 class="beanMachineTitle">The Bean <br> Machine <br> <span>Coffee Bean Shop</span></h1>
+      <input type="text" placeholder="Search for a coffee bean">
+      <button class="arrowBtn"><img src="assets/arrow_right.png" /></button>
+    </section>
+  <!-- About Section -->
+    <section class="about">
+      <h2>About</h2>
+      <p>We are a specialty Coffee Bean Shop based in Barcelona, Spain.</p>
+      <p>We are passionate about the coffee bean quality so we source our beans from all over the world in order to give you the best out there!</p>
+      <p>Visit our specialty coffee shop at <a href="#" class="shopLocation">La Rambla 204</a>, where we serve the best coffee in Barcelona.</p>
+  <!-- Special Offers Selection -->
+    </section>
+    <section class="specialOffers">
+      <h2>Special offers</h2>
+      <div class="flex">
+        <div class="col">
+          <a href="#">
+            <img src="assets/coffee_beans.png" width="192px" height="256px" alt="some sample words">
+          </a>
+          <p class=coffeeDesc>Costa Rica Single Origin</p>
+          <a href="#">
+            <button class="itemBtn">Buy</button>
+          </a> 
+        </div>
+        <div class="col">
+          <a href="#">
+            <img src="assets/coffee_beans.png" width="192px" height="256px" alt="some sample words">
+          </a>
+          <p class=coffeeDesc>Brazil Medium Roast</p>
+          <a class="btn" href="#"><button class="itemBtn">Buy</button></a>
+        </div>
+        <div class="col">
+          <a href="#">
+            <img src="assets/coffee_beans.png" width="192px" height="256px" alt="some sample words">
+          </a>
+          <p class=coffeeDesc>Columbia Single Origin</p>
+          <a class="btn" href="#"><button class="itemBtn">Buy</button></a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- Footer w/ p & icons - Could not get links to work & turned blue -->
+  <footer>
+    <p class="footerP">Find us on social media</p>
+    <div class="icons"> 
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-github"></i>
+    </div>
+  </footer>  
+</body>
+</html>
